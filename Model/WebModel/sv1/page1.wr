@@ -1,0 +1,118 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="0" gr:y="-5" id="sv1#page1" landmark="true" name="Gestion de clientes" protected="false" secure="false" localized="false" ignoreMasterPage="false" customDescriptor="false" linkVisibilityPolicy="hide">
+  <ContentUnits>
+    <PowerIndexUnit gr:x="0" gr:y="0" id="sv1#page1#pwu1" name="Lista de clientes" sortable="true" checkable="true" useCountQuery="false" linkOrder="sv1#page1#pwu1#ln14 sv1#page1#pwu1#ln5" entity="ent1" displayAttributes="ent1#att2 ent1#att3 ent1#att4 ent1#att5 ent1#att6 ent1#att7 ent1#att8" sortHistorySize="1" blockFactor="10" blockWindow="10">
+      <Link id="sv1#page1#pwu1#ln14" name="eliminar" to="sv1#dlu3" type="normal" validate="true" gr:bendpoints="193,2,-192,27">
+        <LinkParameter id="sv1#page1#pwu1#ln14#par12" name="Checked oid_KeyCondition4 [oid]" source="ent1#att1Checked" target="sv1#dlu3#su4#kcond4.ent1#att1"/>
+      </Link>
+      <Link id="sv1#page1#pwu1#ln5" name="Modificar" to="sv1#page1#enu1" type="normal" validate="true">
+        <LinkParameter id="sv1#page1#pwu1#ln5#par15" name="Apellido_Apellido" source="data[].ent1#att3" target="sv1#page1#enu1#fld2_slot"/>
+        <LinkParameter id="sv1#page1#pwu1#ln5#par16" name="Direccion_Direcci&#243;n" source="data[].ent1#att4" target="sv1#page1#enu1#fld3_slot"/>
+        <LinkParameter id="sv1#page1#pwu1#ln5#par17" name="Email_Email" source="data[].ent1#att5" target="sv1#page1#enu1#fld4_slot"/>
+        <LinkParameter id="sv1#page1#pwu1#ln5#par18" name="oid_Key Condition [oid]" source="data[].ent1#att1" target="sv1#page1#enu1.ent1#att1"/>
+        <LinkParameter id="sv1#page1#pwu1#ln5#par19" name="Nombre_Nombre" source="data[].ent1#att2" target="sv1#page1#enu1#fld1_slot"/>
+        <LinkParameter id="sv1#page1#pwu1#ln5#par20" name="$$NULL$$_Sexo" target="sv1#page1#enu1#fld1_slot" sourceValue="$$NULL$$"/>
+        <LinkParameter id="sv1#page1#pwu1#ln5#par21" name="Fecha De Nacimiento_Fecha Nacimiento" source="data[].ent1#att6" target="sv1#page1#enu1#fld5_slot"/>
+      </Link>
+    </PowerIndexUnit>
+    <EntryUnit id="sv1#page1#enu1" name="Datos de los clientes" linkOrder="sv1#page1#enu1#ln3 sv1#page1#enu1#ln4" customDescriptor="false" gr:x="185" gr:y="45" entity="ent1" fieldOrder="sv1#page1#enu1#fld1 sv1#page1#enu1#fld2 sv1#page1#enu1#fld3 sv1#page1#enu1#fld4 sv1#page1#enu1#fld5 sv1#page1#enu1#fld6 sv1#page1#enu1#fld7">
+      <Field id="sv1#page1#enu1#fld1" name="Nombre" type="string" modifiable="true" preloaded="true" hidden="false"/>
+      <Link id="sv1#page1#enu1#ln3" name="A&#241;adir al cliente" to="sv1#cru1" type="normal" customDescriptor="false" validate="true" newWindow="false">
+        <LinkParameter id="sv1#page1#enu1#ln3#par3" name="Nombre_Nombre" source="sv1#page1#enu1#fld1" target="sv1#cru1.ent1#att2"/>
+        <LinkParameter id="sv1#page1#enu1#ln3#par4" name="Apellido_Apellido" source="sv1#page1#enu1#fld2" target="sv1#cru1.ent1#att3"/>
+        <LinkParameter id="sv1#page1#enu1#ln3#par5" name="Direcci&#243;n_Direccion" source="sv1#page1#enu1#fld3" target="sv1#cru1.ent1#att4"/>
+        <LinkParameter id="sv1#page1#enu1#ln3#par6" name="Email_Email" source="sv1#page1#enu1#fld4" target="sv1#cru1.ent1#att5"/>
+        <LinkParameter id="sv1#page1#enu1#ln3#par7" name="Fecha Nacimiento_Fecha De Nacimiento" source="sv1#page1#enu1#fld5" target="sv1#cru1.ent1#att6"/>
+        <LinkParameter id="sv1#page1#enu1#ln3#par1" name="Bio_Bio" source="sv1#page1#enu1#fld6" target="sv1#cru1.ent1#att7"/>
+        <LinkParameter id="sv1#page1#enu1#ln3#par2" name="Foto_foto [file name]" source="sv1#page1#enu1#fld7" target="sv1#cru1.ent1#att8_name"/>
+      </Link>
+      <Field id="sv1#page1#enu1#fld2" name="Apellido" type="string" modifiable="true" preloaded="true" hidden="false"/>
+      <Field id="sv1#page1#enu1#fld3" name="Direcci&#243;n" type="string" modifiable="true" preloaded="true" hidden="false"/>
+      <Field id="sv1#page1#enu1#fld4" name="Email" type="string" modifiable="true" preloaded="true" hidden="false"/>
+      <VRules/>
+      <Link id="sv1#page1#enu1#ln4" name="Guardar" to="sv1#mfu2" type="normal" validate="true">
+        <LinkParameter id="sv1#page1#enu1#ln4#par8" name="Apellido_Apellido" source="sv1#page1#enu1#fld2" target="sv1#mfu2.ent1#att3"/>
+        <LinkParameter id="sv1#page1#enu1#ln4#par9" name="Direcci&#243;n_Direccion" source="sv1#page1#enu1#fld3" target="sv1#mfu2.ent1#att4"/>
+        <LinkParameter id="sv1#page1#enu1#ln4#par10" name="Email_Email" source="sv1#page1#enu1#fld4" target="sv1#mfu2.ent1#att5"/>
+        <LinkParameter id="sv1#page1#enu1#ln4#par11" name="Nombre_Nombre" source="sv1#page1#enu1#fld1" target="sv1#mfu2.ent1#att2"/>
+        <LinkParameter id="sv1#page1#enu1#ln4#par13" name="Key [oid]_KeyCondition5 [oid]" source="key.ent1#att1" target="sv1#mfu2#su5#kcond5.ent1#att1"/>
+        <LinkParameter id="sv1#page1#enu1#ln4#par14" name="Fecha Nacimiento_Fecha De Nacimiento" source="sv1#page1#enu1#fld5" target="sv1#mfu2.ent1#att6"/>
+      </Link>
+      <Field id="sv1#page1#enu1#fld5" name="Fecha Nacimiento" type="date" modifiable="true" preloaded="true" hidden="false"/>
+      <Field id="sv1#page1#enu1#fld6" name="Bio" type="text" modifiable="true"/>
+      <Field id="sv1#page1#enu1#fld7" name="Foto" type="blob" modifiable="true"/>
+    </EntryUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="6">
+        <layout:Unit unitId="sv1#page1#pwu1">
+          <layout:Link link="sv1#page1#pwu1#ln14"/>
+          <layout:Link link="sv1#page1#pwu1#ln5"/>
+          <layout:Link link="sv1#page1#pwu1First"/>
+          <layout:Link link="sv1#page1#pwu1Previous"/>
+          <layout:Link link="sv1#page1#pwu1Block"/>
+          <layout:Link link="sv1#page1#pwu1Next"/>
+          <layout:Link link="sv1#page1#pwu1Last"/>
+          <layout:Attribute attribute="ent1#att2"/>
+          <layout:Attribute attribute="ent1#att3"/>
+          <layout:Attribute attribute="ent1#att4"/>
+          <layout:Attribute attribute="ent1#att5"/>
+          <layout:Attribute attribute="ent1#att6"/>
+          <layout:Attribute attribute="ent1#att7"/>
+          <layout:Attribute attribute="ent1#att8"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell colspan="6"/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv1#page1#enu1">
+          <layout:Link link="sv1#page1#enu1#ln3"/>
+          <layout:Link link="sv1#page1#enu1#ln4"/>
+          <layout:Field field="sv1#page1#enu1#fld1"/>
+          <layout:Field field="sv1#page1#enu1#fld2"/>
+          <layout:Field field="sv1#page1#enu1#fld3"/>
+          <layout:Field field="sv1#page1#enu1#fld4"/>
+          <layout:Field field="sv1#page1#enu1#fld5"/>
+          <layout:Field field="sv1#page1#enu1#fld6"/>
+          <layout:Field field="sv1#page1#enu1#fld7"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12"/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+</Page>

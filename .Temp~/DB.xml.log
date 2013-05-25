@@ -1,0 +1,167 @@
+[25 may 2013 10:51:06] Building database metadata model
+[25 may 2013 10:51:06] Properties: {partialRefresh=false, processColumnsUsingSelect=, includePrimaryKeys=true, eventSocketClient=com.webratio.commons.net.EventSocketClient@cc89dad, includeTables=true, username=webratio, outputLogPath=C:\WebRatio\WebRatio Personal 7.1.0.x64bit\workspace\CentroDatos\.Temp~\DB.xml.log, readIndexes=null, driverClass=org.apache.derby.jdbc.ClientDriver, includeSynonyms=true, metaDataProviderClass=com.webratio.commons.db.metadata.DerbyMetaDataProvider, outputPath=C:\WebRatio\WebRatio Personal 7.1.0.x64bit\workspace\CentroDatos\.Temp~\DB.xml, schemaRegex=null, readProcedures=null, includeViews=true, derby.system.home=C:\WebRatio\WebRatio Personal 7.1.0.x64bit\workspace\.metadata\.plugins\com.webratio.commons.db\derby, url=jdbc:derby://localhost:1527/Database;create=true, tableRegex=null, readSQLDefinitions=true, includeForeignKeys=true, retrieveAllNames=false, tablesToRefresh=, eventSocketPort=50047}
+[25 may 2013 10:51:06] URL: jdbc:derby://localhost:1527/Database;create=true
+[25 may 2013 10:51:06] Product name: Apache Derby
+[25 may 2013 10:51:06] Product version: 10.5.3.0 - (802917)
+[25 may 2013 10:51:06] Driver name: Apache Derby Network Client JDBC Driver
+[25 may 2013 10:51:06] Driver version: 10.5.3.0 - (802917)
+[25 may 2013 10:51:06] Driver major version: 10
+[25 may 2013 10:51:06] Driver minor version: 5
+[25 may 2013 10:51:06] Identifier quote string: 5
+[25 may 2013 10:51:06] Retrieving schemas
+[25 may 2013 10:51:06]   Found schema: APP
+[25 may 2013 10:51:06]   Found schema: NULLID
+[25 may 2013 10:51:06]   Found schema: SQLJ
+[25 may 2013 10:51:06]   Found schema: SYS
+[25 may 2013 10:51:06]   Found schema: SYSCAT
+[25 may 2013 10:51:06]   Found schema: SYSCS_DIAG
+[25 may 2013 10:51:06]   Found schema: SYSCS_UTIL
+[25 may 2013 10:51:06]   Found schema: SYSFUN
+[25 may 2013 10:51:06]   Found schema: SYSIBM
+[25 may 2013 10:51:06]   Found schema: SYSPROC
+[25 may 2013 10:51:06]   Found schema: SYSSTAT
+[25 may 2013 10:51:06] Retrieving [TABLE, VIEW, SYNONYM] for schema 'APP'
+[25 may 2013 10:51:06]   Found 'CLIENTES' [type = TABLE]
+[25 may 2013 10:51:06]   Found 'COMPANIA' [type = TABLE]
+[25 may 2013 10:51:06]   Found 'EMPLEADO' [type = TABLE]
+[25 may 2013 10:51:06]   Found 'GROUP' [type = TABLE]
+[25 may 2013 10:51:06]   Found 'GROUP_2' [type = TABLE]
+[25 may 2013 10:51:06]   Found 'GROUP_MODULE' [type = TABLE]
+[25 may 2013 10:51:06]   Found 'GROUP_MODULE_2' [type = TABLE]
+[25 may 2013 10:51:06]   Found 'MODULE' [type = TABLE]
+[25 may 2013 10:51:06]   Found 'MODULE_2' [type = TABLE]
+[25 may 2013 10:51:06]   Found 'USER' [type = TABLE]
+[25 may 2013 10:51:06]   Found 'USER_2' [type = TABLE]
+[25 may 2013 10:51:06]   Found 'USER_GROUP' [type = TABLE]
+[25 may 2013 10:51:06]   Found 'USER_GROUP_2' [type = TABLE]
+[25 may 2013 10:51:06] Retrieving [TABLE, VIEW, SYNONYM] for schema 'NULLID'
+[25 may 2013 10:51:06] Retrieving [TABLE, VIEW, SYNONYM] for schema 'SQLJ'
+[25 may 2013 10:51:06] Retrieving [TABLE, VIEW, SYNONYM] for schema 'SYSCAT'
+[25 may 2013 10:51:06] Retrieving [TABLE, VIEW, SYNONYM] for schema 'SYSCS_DIAG'
+[25 may 2013 10:51:06] Retrieving [TABLE, VIEW, SYNONYM] for schema 'SYSCS_UTIL'
+[25 may 2013 10:51:06] Retrieving [TABLE, VIEW, SYNONYM] for schema 'SYSFUN'
+[25 may 2013 10:51:06] Retrieving [TABLE, VIEW, SYNONYM] for schema 'SYSPROC'
+[25 may 2013 10:51:06] Retrieving [TABLE, VIEW, SYNONYM] for schema 'SYSSTAT'
+[25 may 2013 10:51:06] Retrieving columns for 'CLIENTES' [type = TABLE]
+[25 may 2013 10:51:06]   Found column: OID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[25 may 2013 10:51:06]   Found column: NOMBRE [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[25 may 2013 10:51:06]   Found column: APELLIDO [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[25 may 2013 10:51:06]   Found column: DIRECCION [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[25 may 2013 10:51:06]   Found column: EMAIL [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[25 may 2013 10:51:06]   Found column: FECHA_DE_NACIMIENTO [type = DATE][SQL/XOPEN type = 91][size = 10][dec. digits = 0]
+[25 may 2013 10:51:06]   Found column: BIO [type = CLOB][SQL/XOPEN type = 2005][size = 10000][dec. digits = 0]
+[25 may 2013 10:51:06]   Found column: FOTO [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[25 may 2013 10:51:06] Retrieving primary keys for 'CLIENTES' [type = TABLE]
+[25 may 2013 10:51:06]   Found primary key column: OID
+[25 may 2013 10:51:06] Retrieving columns for 'COMPANIA' [type = TABLE]
+[25 may 2013 10:51:06]   Found column: OID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[25 may 2013 10:51:06]   Found column: NAME [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[25 may 2013 10:51:06]   Found column: LOGO [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[25 may 2013 10:51:06]   Found column: SITIO_WEB [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[25 may 2013 10:51:06]   Found column: EMAIL [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[25 may 2013 10:51:06]   Found column: NACIONALIDAD [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[25 may 2013 10:51:06]   Found column: PROVINCIA [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[25 may 2013 10:51:06] Retrieving primary keys for 'COMPANIA' [type = TABLE]
+[25 may 2013 10:51:06]   Found primary key column: OID
+[25 may 2013 10:51:06] Retrieving columns for 'EMPLEADO' [type = TABLE]
+[25 may 2013 10:51:06]   Found column: OID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[25 may 2013 10:51:06]   Found column: NOMBRE [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[25 may 2013 10:51:06]   Found column: APELLIDO [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[25 may 2013 10:51:06]   Found column: EMAIL [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[25 may 2013 10:51:06]   Found column: FECHA_NACIMIENTO [type = DATE][SQL/XOPEN type = 91][size = 10][dec. digits = 0]
+[25 may 2013 10:51:06]   Found column: ROL [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[25 may 2013 10:51:06]   Found column: COMPANIA [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[25 may 2013 10:51:06]   Found column: COMPANIA_OID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[25 may 2013 10:51:06] Retrieving primary keys for 'EMPLEADO' [type = TABLE]
+[25 may 2013 10:51:06]   Found primary key column: OID
+[25 may 2013 10:51:06] Retrieving columns for 'GROUP' [type = TABLE]
+[25 may 2013 10:51:06]   Found column: OID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[25 may 2013 10:51:06]   Found column: GROUPNAME [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[25 may 2013 10:51:06]   Found column: MODULE_OID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[25 may 2013 10:51:06] Retrieving primary keys for 'GROUP' [type = TABLE]
+[25 may 2013 10:51:06]   Found primary key column: OID
+[25 may 2013 10:51:06] Retrieving columns for 'GROUP_2' [type = TABLE]
+[25 may 2013 10:51:06]   Found column: OID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[25 may 2013 10:51:06]   Found column: GROUPNAME [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[25 may 2013 10:51:06]   Found column: MODULE_2_OID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[25 may 2013 10:51:06] Retrieving primary keys for 'GROUP_2' [type = TABLE]
+[25 may 2013 10:51:06]   Found primary key column: OID
+[25 may 2013 10:51:06] Retrieving columns for 'GROUP_MODULE' [type = TABLE]
+[25 may 2013 10:51:06]   Found column: GROUP_OID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[25 may 2013 10:51:06]   Found column: MODULE_OID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[25 may 2013 10:51:06] Retrieving primary keys for 'GROUP_MODULE' [type = TABLE]
+[25 may 2013 10:51:06]   Found primary key column: GROUP_OID
+[25 may 2013 10:51:06]   Found primary key column: MODULE_OID
+[25 may 2013 10:51:06] Retrieving columns for 'GROUP_MODULE_2' [type = TABLE]
+[25 may 2013 10:51:06]   Found column: GROUP_2_OID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[25 may 2013 10:51:06]   Found column: MODULE_2_OID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[25 may 2013 10:51:06] Retrieving primary keys for 'GROUP_MODULE_2' [type = TABLE]
+[25 may 2013 10:51:06]   Found primary key column: GROUP_2_OID
+[25 may 2013 10:51:06]   Found primary key column: MODULE_2_OID
+[25 may 2013 10:51:06] Retrieving columns for 'MODULE' [type = TABLE]
+[25 may 2013 10:51:06]   Found column: OID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[25 may 2013 10:51:06]   Found column: MODULEID [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[25 may 2013 10:51:06]   Found column: MODULENAME [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[25 may 2013 10:51:06] Retrieving primary keys for 'MODULE' [type = TABLE]
+[25 may 2013 10:51:06]   Found primary key column: OID
+[25 may 2013 10:51:06] Retrieving columns for 'MODULE_2' [type = TABLE]
+[25 may 2013 10:51:06]   Found column: OID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[25 may 2013 10:51:06]   Found column: MODULEID [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[25 may 2013 10:51:06]   Found column: MODULENAME [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[25 may 2013 10:51:06] Retrieving primary keys for 'MODULE_2' [type = TABLE]
+[25 may 2013 10:51:06]   Found primary key column: OID
+[25 may 2013 10:51:06] Retrieving columns for 'USER' [type = TABLE]
+[25 may 2013 10:51:06]   Found column: OID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[25 may 2013 10:51:06]   Found column: USERNAME [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[25 may 2013 10:51:06]   Found column: PASSWORD [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[25 may 2013 10:51:06]   Found column: EMAIL [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[25 may 2013 10:51:06]   Found column: GROUP_OID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[25 may 2013 10:51:06] Retrieving primary keys for 'USER' [type = TABLE]
+[25 may 2013 10:51:06]   Found primary key column: OID
+[25 may 2013 10:51:06] Retrieving columns for 'USER_2' [type = TABLE]
+[25 may 2013 10:51:06]   Found column: OID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[25 may 2013 10:51:06]   Found column: USERNAME [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[25 may 2013 10:51:06]   Found column: PASSWORD [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[25 may 2013 10:51:06]   Found column: EMAIL [type = VARCHAR][SQL/XOPEN type = 12][size = 255][dec. digits = 0]
+[25 may 2013 10:51:06]   Found column: GROUP_2_OID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[25 may 2013 10:51:06] Retrieving primary keys for 'USER_2' [type = TABLE]
+[25 may 2013 10:51:06]   Found primary key column: OID
+[25 may 2013 10:51:06] Retrieving columns for 'USER_GROUP' [type = TABLE]
+[25 may 2013 10:51:06]   Found column: USER_OID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[25 may 2013 10:51:06]   Found column: GROUP_OID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[25 may 2013 10:51:06] Retrieving primary keys for 'USER_GROUP' [type = TABLE]
+[25 may 2013 10:51:06]   Found primary key column: USER_OID
+[25 may 2013 10:51:06]   Found primary key column: GROUP_OID
+[25 may 2013 10:51:06] Retrieving columns for 'USER_GROUP_2' [type = TABLE]
+[25 may 2013 10:51:06]   Found column: USER_2_OID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[25 may 2013 10:51:06]   Found column: GROUP_2_OID [type = INTEGER][SQL/XOPEN type = 4][size = 10][dec. digits = 0]
+[25 may 2013 10:51:06] Retrieving primary keys for 'USER_GROUP_2' [type = TABLE]
+[25 may 2013 10:51:06]   Found primary key column: USER_2_OID
+[25 may 2013 10:51:06]   Found primary key column: GROUP_2_OID
+[25 may 2013 10:51:06] Retrieving foreign keys for 'CLIENTES' [type = TABLE]
+[25 may 2013 10:51:06] Retrieving foreign keys for 'COMPANIA' [type = TABLE]
+[25 may 2013 10:51:06] Retrieving foreign keys for 'EMPLEADO' [type = TABLE]
+[25 may 2013 10:51:06]   Found foreign key: column COMPANIA_OID references COMPANIA(OID)
+[25 may 2013 10:51:06] Retrieving foreign keys for 'GROUP' [type = TABLE]
+[25 may 2013 10:51:06]   Found foreign key: column MODULE_OID references MODULE(OID)
+[25 may 2013 10:51:06] Retrieving foreign keys for 'GROUP_2' [type = TABLE]
+[25 may 2013 10:51:06]   Found foreign key: column MODULE_2_OID references MODULE_2(OID)
+[25 may 2013 10:51:06] Retrieving foreign keys for 'GROUP_MODULE' [type = TABLE]
+[25 may 2013 10:51:07]   Found foreign key: column GROUP_OID references GROUP(OID)
+[25 may 2013 10:51:07]   Found foreign key: column MODULE_OID references MODULE(OID)
+[25 may 2013 10:51:07] Retrieving foreign keys for 'GROUP_MODULE_2' [type = TABLE]
+[25 may 2013 10:51:07]   Found foreign key: column GROUP_2_OID references GROUP_2(OID)
+[25 may 2013 10:51:07]   Found foreign key: column MODULE_2_OID references MODULE_2(OID)
+[25 may 2013 10:51:07] Retrieving foreign keys for 'MODULE' [type = TABLE]
+[25 may 2013 10:51:07] Retrieving foreign keys for 'MODULE_2' [type = TABLE]
+[25 may 2013 10:51:07] Retrieving foreign keys for 'USER' [type = TABLE]
+[25 may 2013 10:51:07]   Found foreign key: column GROUP_OID references GROUP(OID)
+[25 may 2013 10:51:07] Retrieving foreign keys for 'USER_2' [type = TABLE]
+[25 may 2013 10:51:07]   Found foreign key: column GROUP_2_OID references GROUP_2(OID)
+[25 may 2013 10:51:07] Retrieving foreign keys for 'USER_GROUP' [type = TABLE]
+[25 may 2013 10:51:07]   Found foreign key: column GROUP_OID references GROUP(OID)
+[25 may 2013 10:51:07]   Found foreign key: column USER_OID references USER(OID)
+[25 may 2013 10:51:07] Retrieving foreign keys for 'USER_GROUP_2' [type = TABLE]
+[25 may 2013 10:51:07]   Found foreign key: column GROUP_2_OID references GROUP_2(OID)
+[25 may 2013 10:51:07]   Found foreign key: column USER_2_OID references USER_2(OID)
+[25 may 2013 10:51:07] Database connection closed

@@ -1,0 +1,21 @@
+<SiteView xmlns:gr="http://www.webratio.com/2006/WebML/Graph" id="sv1" name="CentroDatos" landmarks="sv1#page3 sv1#page1" linkVisibilityPolicy="hide" homePage="sv1#page3">
+  <OperationUnits>
+    <CreateUnit gr:x="160" gr:y="235" id="sv1#cru1" name="A&#241;adir Cliente" entity="ent1">
+      <OKLink id="sv1#cru1#oln2" name="OKLink2" to="sv1#page5#dau1" automaticCoupling="true" gr:bendpoints="40,-71,-15,84"/>
+      <KOLink id="sv1#cru1#kln1" name="KOLink1" to="sv1#page2" automaticCoupling="true"/>
+      <Property id="sv1#cru1#prop1" name="create"/>
+    </CreateUnit>
+    <DeleteUnit gr:x="470" gr:y="0" id="sv1#dlu3" name="Eliminar Cliente" entity="ent1">
+      <Selector id="sv1#dlu3#su4" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv1#dlu3#su4#kcond4" name="KeyCondition4" predicate="in" implied="false"/>
+      </Selector>
+      <OKLink id="sv1#dlu3#oln6" name="Empleado Eliminado" to="sv1#page1" automaticCoupling="true" gr:bendpoints="-112,40,193,25"/>
+    </DeleteUnit>
+    <ModifyUnit gr:x="475" gr:y="135" id="sv1#mfu2" name="Modicar clientes" entity="ent1">
+      <Selector id="sv1#mfu2#su5" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv1#mfu2#su5#kcond5" name="KeyCondition5" predicate="in" implied="false"/>
+      </Selector>
+      <OKLink id="sv1#mfu2#oln3" name="Cliente modificado" to="sv1#page4#dau2" automaticCoupling="true"/>
+    </ModifyUnit>
+  </OperationUnits>
+</SiteView>

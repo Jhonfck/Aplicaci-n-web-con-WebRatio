@@ -1,0 +1,27 @@
+[25 may 2013 01:44:35] DEBUG Executing SQL script
+[25 may 2013 01:44:35] INFO ================================================================================
+[25 may 2013 01:44:35] INFO onError= 'continue'
+[25 may 2013 01:44:35] INFO autoCommit= 'false'
+[25 may 2013 01:44:35] INFO username= 'webratio'
+[25 may 2013 01:44:35] INFO outputPath= 'C:\WebRatio\WebRatio Personal 7.1.0.x64bit\workspace\CentroDatos\.Temp~\UpdateSQL.xml'
+[25 may 2013 01:44:35] INFO outputLogPath= 'C:\WebRatio\WebRatio Personal 7.1.0.x64bit\workspace\CentroDatos\.Temp~\UpdateSQL.xml.log'
+[25 may 2013 01:44:35] INFO encoding= ''
+[25 may 2013 01:44:35] INFO driverClass= 'org.apache.derby.jdbc.ClientDriver'
+[25 may 2013 01:44:35] INFO sqlScript= 'C:\WebRatio\WebRatio Personal 7.1.0.x64bit\workspace\CentroDatos\.Temp~\UpdateSQL.sql'
+[25 may 2013 01:44:35] INFO eventSocketPort= '52310'
+[25 may 2013 01:44:35] INFO statementSeparator= ';'
+[25 may 2013 01:44:35] INFO derby.system.home= 'C:\WebRatio\WebRatio Personal 7.1.0.x64bit\workspace\.metadata\.plugins\com.webratio.commons.db\derby'
+[25 may 2013 01:44:35] INFO password= 'varose'
+[25 may 2013 01:44:35] INFO url= 'jdbc:derby://localhost:1527/Database;create=true'
+[25 may 2013 01:44:35] INFO ================================================================================
+[25 may 2013 01:44:35] INFO Connecting to the Database...
+[25 may 2013 01:44:35] INFO Database connection estabilished
+[25 may 2013 01:44:35] INFO transaction isolation: 2
+[25 may 2013 01:44:35] DEBUG ================================================================================
+[25 may 2013 01:44:35] DEBUG Executing SQL script file: C:\WebRatio\WebRatio Personal 7.1.0.x64bit\workspace\CentroDatos\.Temp~\UpdateSQL.sql
+[25 may 2013 01:44:35] DEBUG Executing statement:  alter table "APP"."CLIENTES"  add column  "BIO"  clob(10000)
+[25 may 2013 01:44:35] DEBUG Executing statement:  alter table "APP"."CLIENTES"  add column  "FOTO"  varchar(255)
+[25 may 2013 01:44:35] DEBUG ================================================================================
+[25 may 2013 01:44:35] DEBUG SQL SCRIPT SUCCESSFULLY EXECUTED
+[25 may 2013 01:44:35] INFO Database connection closed
+[25 may 2013 01:44:35] DEBUG Total time: 790 milliseconds
